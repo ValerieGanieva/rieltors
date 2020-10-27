@@ -13,7 +13,7 @@ body {
 .header {
     margin: 0;
     padding: 0;
-    max-width: 1400px;
+    max-width: 100%;
     height: 610px;
     background-color: #C4C4C4;
 }
@@ -22,7 +22,8 @@ body {
     padding: 0;
     margin-top: 20px;
     margin-left: 40px;
-    width: 1320px;
+    min-width: 1320px;
+    max-width: 100%;
     height: 25px;
     display: flex;
     justify-content: space-between;
@@ -40,10 +41,12 @@ body {
 .nav-header {
     margin: 0;
     padding: 0;
-    max-width: 1400px;
+    min-width: 1400px;
+    max-width: 100%;
     height: 60px;
     display: flex;
     background-color: #fff;
+    background-size: 100%;
 }
 
 .logo {
@@ -69,20 +72,20 @@ body {
 }
 
 .wrap {
-    width: 1400px;
+    min-width: 1400px;
     height: 550px;
     margin: 0;
     padding: 0;
     padding-top: -20px;
     background-image: url(./image/img-header.jpg);
+    background-size: 100%;
 }
 
-
-/*.wrap-text {
+.wrap-text {
     margin: 0;
     padding-top: 370px;
     padding-left: 150px;
-}*/
+}
 
 .wrap h1 {
     margin: 0;
@@ -95,25 +98,23 @@ body {
     color: black;
 }
 
-
-/*.style-text {
+.style-text {
     margin: 0;
     padding: 0;
     padding-left: 150px;
     font-size: 18px;
     line-height: 27px;
     color: #1A1B1F;
-}*/
+}
 
-
-/*.wrap p {
+.wrap p {
     margin: 0;
     padding: 0;
     padding-top: 418px;
     padding-left: 150px;
     font-size: 18px;
     line-height: 27px;
-}*/
+}
 
 
 /*Main*/
@@ -141,7 +142,8 @@ hr {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-    max-width: 1100px;
+    min-width: 1100px;
+    max-width: 100%;
     margin-left: 150px;
 }
 
@@ -218,10 +220,11 @@ hr {
     padding: 0;
     margin-left: 150px;
     margin-top: 131px;
-    max-width: 1100px;
+    min-width: 1100px;
     height: 356px;
     background-image: url(./image/img-descr.jpg);
     border-radius: 8px;
+    background-size: 100%;
 }
 
 .img-descr {
@@ -245,7 +248,8 @@ hr {
 .description {
     padding: 0;
     margin: 0;
-    width: 591px;
+    min-width: 591px;
+    max-width: 100%;
     height: 144px;
     margin-left: 440px;
     top: -295px;
@@ -262,7 +266,8 @@ hr {
     padding: 0;
     margin-left: 150px;
     margin-top: 103px;
-    max-width: 1250px;
+    min-width: 1250px;
+    max-width: 100%;
     height: 518px;
 }
 
@@ -292,10 +297,11 @@ hr {
     margin: 0;
     margin-left: 470px;
     margin-top: 23px;
-    width: 780px;
+    min-width: 780px;
     height: 319px;
     background: #1A1B1F;
     border-radius: 4px;
+    background-size: 100%;
 }
 
 .feed-img {
@@ -364,7 +370,8 @@ hr {
     margin-top: 144px;
     display: flex;
     justify-content: space-between;
-    width: 1100px;
+    min-width: 1100px;
+    max-width: 100%;
     height: 360px;
 }
 
@@ -405,11 +412,12 @@ hr {
 
 .contact {
     padding: 0;
-    width: 1400px;
+    min-width: 1400px;
     height: 331px;
     margin-left: 0px;
     margin-top: 60px;
     background-image: url(./image/contact.jpg);
+    background-size: 100%;
 }
 
 .wrap-contact {
@@ -435,6 +443,71 @@ hr {
     width: 72px;
     display: flex;
     justify-content: space-between;
+}
+
+.send {
+    margin: 0;
+    width: 477px;
+    height: 237px;
+    margin-left: 728px;
+    margin-top: -220px;
+    padding-top: 42px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: lightcoral;
+    border-radius: 2px;
+}
+
+input {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #DBDCE0;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.input-mess {
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 17px;
+    width: 417px;
+    height: 90px;
+    background-color: lightseagreen;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DBDCE0;
+}
+
+value {
+    font-size: 16px;
+    line-height: 19px;
+    color: #DBDCE0;
+}
+
+.button-send {
+    max-width: 200px;
+    height: 37px;
+    /*margin-right: 30px;*/
+    margin-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background: #4D94FF;
+    border-radius: 2px;
+    border: 0;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/*Footer*/
+
+.footer {
+    height: 236px;
+    background-size: 100%;
 }
 
 
